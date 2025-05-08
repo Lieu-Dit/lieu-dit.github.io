@@ -1,26 +1,26 @@
 let playlist_05_2025 = [
     {
-        title: "Lundi 12 mai 2025.mp4",
+        title: "Lundi 12 mai 2025",
         url: "01 Lundi 12 mai 2025.mp4",
     },
     {
-        title: "Mercredi 14 mai 2025.mp4",
+        title: "Mercredi 14 mai 2025",
         url: "02 Mercredi 14 mai 2025.mp4",
     },
     {
-        title: "Samedi 17 mai 2025.mp4",
+        title: "Samedi 17 mai 2025",
         url: "03 Samedi 17 mai 2025.mp4",
     },
     {
-        title: "Mercredi 21 mai 2025.mp4",
+        title: "Mercredi 21 mai 2025",
         url: "04 Mercredi 21 mai 2025.mp4",
     },
     {
-        title: "Jeudi 22 mai 2025.mp4",
+        title: "Jeudi 22 mai 2025",
         url: "05 Jeudi 22 mai 2025.mp4",
     },
     {
-        title: "Du vendredi 23 au dimanche 25 mai 2025.mp4",
+        title: "Du vendredi 23 au dimanche 25 mai 2025",
         url: "06 Vendredi 23 au dimanche 25 mai 2025.mp4",
     },
     ];
