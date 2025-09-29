@@ -1192,6 +1192,12 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
 <li><a href="#prog">En téléchargement sur ce site</a> aux formats PDF, Word ou Libre Office.</li>
 <li>En ligne <a href="https://pommesdelune.fr/place/2-le-lieu-dit">sur le site "Pommes de Lune"</a></li>
 </ul></section><section class="print-page" id="prog"><h1 id="prog-telecharger-le-programme-accessible-gros-caracteres">Télécharger le programme accessible, gros caractères</h1>
+<h2 id="prog-octobre-2025">Octobre 2025</h2>
+<ul>
+<li><a href="programme/2025/Programme%20Lieu-Dit%20octobre%202025.pdf">Programme octobre 2025 - PDF</a></li>
+<li><a href="programme/2025/Programme%20Lieu-Dit%20octobre%202025.odt">Programme octobre 2025 - Libre Office</a></li>
+<li><a href="programme/2025/Programme%20Lieu-Dit%20octobre%202025.docx">Programme octobre 2025 - Word</a></li>
+</ul>
 <h2 id="prog-septembre-2025">Septembre 2025</h2>
 <ul>
 <li><a href="programme/2025/Programme%20Lieu-Dit%20septembre%202025.pdf">Programme septembre 2025 - PDF</a></li>
@@ -1222,13 +1228,8 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
 <li><a href="programme/2025/Programme%20Lieu-Dit%20avril%202025.odt">Programme avril 2025 - Libre Office</a></li>
 <li><a href="programme/2025/Programme%20Lieu-Dit%20avril%202025.docx">Programme avril 2025 - Word</a></li>
 </ul></section><section class="print-page" id="prog-lsf"><h1 id="prog-lsf-programmes-en-langue-des-signes-francaise-lsf"><span class="middle img-3rem"><img alt="" src="assets/lsf.png" /></span>Programmes en Langue des signes française (LSF)</h1>
-<h2 id="prog-lsf-juillet-2025">Juillet 2025</h2>
-<h2 id="prog-lsf-jeudi-3-juillet-18h">Jeudi 3 Juillet 18h</h2>
-<p><a href="http://agenda.unadev.com/wp-content/uploads/2025/06/jeudi-3-juillet-Lieu-Dit-atelier-air-et-pot-fin-de-chantier.mp4">Lien Video LSF</a></p>
-<h2 id="prog-lsf-12-18-19-26-juillet">12, 18, 19, 26 juillet</h2>
-<p>Vidéos bientôt !</p>
-<h2 id="prog-lsf-juin-2025">Juin 2025</h2>
-<ul class="playlist_lsf" id="lsf-06-25"></ul>
+<h2 id="prog-lsf-octobre-2025">Octobre 2025</h2>
+<ul class="playlist_lsf" id="lsf-10-25"></ul>
 
 <p><link href="stylesheets/video-js.css" rel="stylesheet" />
 <link href="stylesheets/extra.video-js.css" rel="stylesheet" /></p>
@@ -1251,13 +1252,28 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
 <h2 id="prog-lsf-remerciements">Remerciements</h2>
 <p>Merci à Carole et Fabienne pour les vidéos LSF du programme !</p>
 <h2 id="prog-lsf-programmes-precedents">Programmes précédents</h2>
-<h3 id="prog-lsf-mai">Mai</h3>
+<h3 id="prog-lsf-septembre-2025">Septembre 2025</h3>
+<ul class="playlist_lsf" id="lsf-09-25"></ul>
+
+<h3 id="prog-lsf-juillet-2025">Juillet 2025</h3>
+<ul>
+<li>
+<p><a href="http://agenda.unadev.com/wp-content/uploads/2025/06/jeudi-3-juillet-Lieu-Dit-atelier-air-et-pot-fin-de-chantier.mp4">Jeudi 3 Juillet 18h : Lien Video LSF</a></p>
+</li>
+<li>
+<p>12, 18, 19, 26 juillet</p>
+</li>
+</ul>
+<h3 id="prog-lsf-juin-2025">Juin 2025</h3>
+<ul class="playlist_lsf" id="lsf-06-25"></ul>
+
+<h3 id="prog-lsf-mai-2025">Mai 2025</h3>
 <ul class="playlist_lsf" id="lsf-05-25"></ul>
 
-<h3 id="prog-lsf-avril">Avril</h3>
+<h3 id="prog-lsf-avril-2025">Avril 2025</h3>
 <ul class="playlist_lsf" id="lsf-04-25"></ul>
 
-<h3 id="prog-lsf-mars">Mars</h3>
+<h3 id="prog-lsf-mars-2025">Mars 2025</h3>
 <ul class="playlist_lsf" id="lsf-03-25"></ul>
 
 <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
@@ -1301,11 +1317,13 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
         const base = "https://cloud.laucarre.com/s/LD-LSF-prog/"
         return base+"download?path=%2F"+yyyy+"_"+mm+"&files="
     }
+    populate_list(playlist_10_2025, "lsf-10-25", getdirname(10,2025));
+    populate_list(playlist_09_2025, "lsf-09-25", getdirname(09,2025));
     populate_list(playlist_06_2025, "lsf-06-25", getdirname(06,2025));
     populate_list(playlist_05_2025, "lsf-05-25", getdirname(05,2025));
     populate_list(playlist_04_2025, "lsf-04-25", getdirname(04,2025));
     populate_list(playlist_03_2025, "lsf-03-25", getdirname(03,2025));
-    doo(null, getdirname(05,2025) + playlist_06_2025[0].url)
+    doo(null, getdirname(10,2025) + playlist_10_2025[0].url)
 </script></section><h1 class='nav-section-title-end'>Ended: Programme</h1><section class="print-page" id="about"><h1 id="about-a-propos">À propos</h1>
 <p>Les documents présentés ici ont été réalisé pour le Lieu-Dit sur la base de deux rencontres qui ont réunies 25 bénévoles-expertes et professionnelles en janvier et février 2025, dans le cadre d'un projet proposé par l'Union Nationale des Aveugles et Déficients Visuels (<a href="https://www.unadev.com/">UNADEV</a>) à <a href="http://agenda.unadev.com/category/menu-principal/lyon/#post-8226">Clermont-Ferrand</a>, intitulé "Accueillir des personnes avec des différences sensorielles". Le travail d'écriture du projet a été fait avec Aurélien Monnier.</p>
 <p>La fiche Accessibilité a été créée en s’appuyant sur la <a href="https://belfasttrans.org.uk/about/access">page web Accessibilité du Centre de Ressources Trans de Belfast</a>.
