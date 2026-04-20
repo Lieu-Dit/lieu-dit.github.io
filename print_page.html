@@ -1164,9 +1164,9 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
 </ul></section><section class="print-page" id="prog"><h1 id="prog-telecharger-le-programme-accessible-gros-caracteres">Télécharger le programme accessible, gros caractères</h1>
 <h2 id="prog-avril-2026">Avril 2026</h2>
 <ul>
-<li><a href="programme/2025/Programme%20Lieu-Dit%20avril%202026.pdf">Programme avril 2026 - PDF</a></li>
-<li><a href="programme/2025/Programme%20Lieu-Dit%20avril%202026.odt">Programme avril 2026 - Libre Office</a></li>
-<li><a href="programme/2025/Programme%20Lieu-Dit%20avril%202026.docx">Programme avril 2026 - Word</a></li>
+<li><a href="programme/2026/Programme%20Lieu-Dit%20avril%202026.pdf">Programme avril 2026 - PDF</a></li>
+<li><a href="programme/2026/Programme%20Lieu-Dit%20avril%202026.odt">Programme avril 2026 - Libre Office</a></li>
+<li><a href="programme/2026/Programme%20Lieu-Dit%20avril%202026.docx">Programme avril 2026 - Word</a></li>
 </ul>
 <h2 id="prog-novembre-2025">Novembre 2025</h2>
 <ul>
@@ -1212,8 +1212,8 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
 </ul></section><section class="print-page" id="prog-lsf"><h1 id="prog-lsf-programmes-en-langue-des-signes-francaise-lsf"><span class="middle img-3rem"><img alt="" src="assets/lsf.png" /></span>Programmes en Langue des signes française (LSF)</h1>
 <!-- Changer le mois en cours -->
 
-<h2 id="prog-lsf-octobre-2025">Octobre 2025</h2>
-<ul class="playlist_lsf" id="lsf-10-25"></ul>
+<h2 id="prog-lsf-avril-2026">Avril 2026</h2>
+<ul class="playlist_lsf" id="lsf-04-26"></ul>
 
 <!-- Ne pas toucher en dessous -->
 
@@ -1239,6 +1239,9 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
 <p>Merci à Carole et Fabienne pour les vidéos LSF du programme !</p>
 <h2 id="prog-lsf-programmes-precedents">Programmes précédents</h2>
 <!-- ajouter le mois précédent -->
+
+<h3 id="prog-lsf-octobre-2025">Octobre 2025</h3>
+<ul class="playlist_lsf" id="lsf-10-25"></ul>
 
 <h3 id="prog-lsf-septembre-2025">Septembre 2025</h3>
 <ul class="playlist_lsf" id="lsf-09-25"></ul>
@@ -1301,6 +1304,7 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
         return base+"download?path=%2F"+yyyy+"_"+mm+"&files="
     }
     // ajouter la ligne pour le mois en cours :
+    populate_list(playlist_04_2026, "lsf-04-26", getdirname(04,2026));
     populate_list(playlist_10_2025, "lsf-10-25", getdirname(10,2025));
     populate_list(playlist_09_2025, "lsf-09-25", getdirname(09,2025));
     populate_list(playlist_06_2025, "lsf-06-25", getdirname(06,2025));
@@ -1308,7 +1312,7 @@ Ces photographies ont été prises par ... . Elles sont libres de tout droit. --
     populate_list(playlist_04_2025, "lsf-04-25", getdirname(04,2025));
     populate_list(playlist_03_2025, "lsf-03-25", getdirname(03,2025));
     // mettre à jour la ligne suivante :
-    doo(null, getdirname(10,2025) + playlist_10_2025[0].url)
+    doo(null, getdirname(04,2026) + playlist_04_2026[0].url)
 </script></section><section class="print-page" id="culture-access"><h1 id="culture-access-brochure-de-loffre-culturelle-accessible">Brochure de l'offre culturelle accessible</h1>
 <h2 id="culture-access-le-reseau-culture-accessible">Le réseau Culture Accessible</h2>
 <p>Des lieux culturels (musées, bibliothèques, théâtre, opéra, salle de concert) et des structures accompagnant des personnes en situation de handicap proposent des activités accessibles à tout le monde à Clermont-Ferrand et la Métropole.</p>
