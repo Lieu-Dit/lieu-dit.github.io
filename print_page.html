@@ -1107,8 +1107,8 @@ Vous pouvez aussi télécharger [l'ensemble de ce site web au format PDF](). -->
 </ul></section><section class="print-page" id="prog-lsf"><h1 id="prog-lsf-programmes-en-langue-des-signes-francaise-lsf"><span class="middle img-3rem"><img alt="" src="assets/lsf.png" /></span>Programmes en Langue des signes française (LSF)</h1>
 <!-- Changer le mois en cours -->
 
-<h2 id="prog-lsf-septembre-2026">Septembre 2026</h2>
-<ul class="playlist_lsf" id="lsf-09-26"></ul>
+<h2 id="prog-lsf-ocotobre-2026">Ocotobre 2026</h2>
+<ul class="playlist_lsf" id="lsf-01-26"></ul>
 
 <!-- Ne pas toucher en dessous -->
 
@@ -1134,6 +1134,9 @@ Vous pouvez aussi télécharger [l'ensemble de ce site web au format PDF](). -->
 <p>Merci à Carole et Fabienne pour les vidéos LSF du programme !</p>
 <h2 id="prog-lsf-programmes-precedents">Programmes précédents</h2>
 <!-- ajouter le mois précédent -->
+<h3 id="prog-lsf-septembre-2026">Septembre 2026</h3>
+<ul class="playlist_lsf" id="lsf-09-26"></ul>
+
 <h3 id="prog-lsf-avril-2026">Avril 2026</h3>
 <ul class="playlist_lsf" id="lsf-04-26"></ul>
 
@@ -1201,6 +1204,7 @@ Vous pouvez aussi télécharger [l'ensemble de ce site web au format PDF](). -->
         return base+"download?path=%2F"+yyyy+"%2F"+yyyy+"_"+mm+"&files="
     }
     // ajouter la ligne pour le mois en cours :
+    populate_list(playlist_09_2026, "lsf-10-26", getdirname(09,2026));
     populate_list(playlist_09_2026, "lsf-09-26", getdirname(09,2026));
     populate_list(playlist_04_2026, "lsf-04-26", getdirname(04,2026));
     populate_list(playlist_10_2025, "lsf-10-25", getdirname(10,2025));
@@ -1210,7 +1214,7 @@ Vous pouvez aussi télécharger [l'ensemble de ce site web au format PDF](). -->
     populate_list(playlist_04_2025, "lsf-04-25", getdirname(04,2025));
     populate_list(playlist_03_2025, "lsf-03-25", getdirname(03,2025));
     // mettre à jour la ligne suivante :
-    doo(null, getdirname(09,2026) + playlist_09_2026[0].url)
+    doo(null, getdirname(10,2026) + playlist_10_2026[0].url)
 </script></section><section class="print-page" id="culture-access"><h1 id="culture-access-brochure-de-loffre-culturelle-accessible">Brochure de l'offre culturelle accessible</h1>
 <h2 id="culture-access-le-reseau-culture-accessible">Le réseau Culture Accessible</h2>
 <p>Des lieux culturels (musées, bibliothèques, théâtre, opéra, salle de concert) et des structures accompagnant des personnes en situation de handicap proposent des activités accessibles à tout le monde à Clermont-Ferrand et la Métropole.</p>
