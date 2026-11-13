@@ -1,3 +1,21 @@
+let playlist_11_2026 = [
+     {
+        title: "Mercredi 04 novembre",
+        url:"01 Mer 04 novembre 2026.mp4"
+    },
+     {
+        title: "Vendredi 06 novembre",
+        url:"02 Ven 06 novembre 2026.mp4"
+    },
+     {
+        title: "Samedi 07 novembre",
+        url:"03 Sam 07 novembre 2026.mp4"
+    },
+     {
+        title: "Jeudi 19 novembre",
+        url:"04 Jeu 19 novembre 2026.mp4"
+    },
+]
 
 let playlist_10_2026 = [
     {
